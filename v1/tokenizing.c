@@ -1,26 +1,51 @@
-// MANIPULATING SOURCE
+// TOKENIZING SOURCE
 #define _CRT_SECURE_NO_WARNINGS
-#define BUFFER_SIZE 80
 
-#include "manipulating.h"
+// define macro BUFFER_SIZE = 300
+#define BUFFER_SIZE 300
 
-void manipulating(void)
+// Including function prototype
+#include "tokenizing.h"
+
+void tokenizing(void)
 {
-    /* Version 1 */
-    printf("*** Start of Concatenating strings Demo ***\n");
-    char string1[BUFFER_SIZE];
-    char string2[BUFFER_SIZE];
+    // V1
+    printf("*** Start of Tokenizing Words Demo ***\n");
+
+    // declaring cstring variable with length of BUFFER_SIZE
+    char words[BUFFER_SIZE];
+
+    // declaring pointer to cstring and setting to safe state
+    char* nextWord = NULL;
+
+    // declaring int variable
+    int wordsCounter;
     do {
-        printf("Type the 1st string (q - to quit): \n");
-        fgets(string1, BUFFER_SIZE, stdin);
-        string1[strlen(string1) - 1] = '\0';
-        if (strcmp(string1, "q") != 0) {
-            printf("Type the 2nd string:\n");
-            fgets(string2, BUFFER_SIZE, stdin);
-            string2[strlen(string2) - 1] = '\0';
-            strcat(string1, string2);
-            printf("Concatenated string is \'%s\'\n", string1);
+        printf("Type a few words separated by space (q - to quit): \n");
+
+        // Read string from stdin, stops when BUFFER_SIZE - 1 characters are read or \n is reached
+        // and stores to words
+        fgets(words, BUFFER_SIZE, stdin);
+
+        // Setting the last character in cstring to null delimiter byte
+        words[strlen(words) - 1] = '\0';
+
+        // if (words != "q")
+        if (strcmp(words, "q") != 0) {
+            // Get first token (split words by <space> and get first element)
+            nextWord = strtok(words, " ");
+            wordsCounter = 1;
+
+            // while (nextWord != NULL)
+            while (nextWord) {
+                // postfix increment, print wordsCound and nextWord and then increment wordsCounter
+                printf("Word #%d is \'%s\'\n", wordsCounter++, nextWord);
+
+                // NULL as first argument means to continue tokenizing the string passed before
+                nextWord = strtok(NULL, " ");
+            }
         }
-    } while (strcmp(string1, "q") != 0);
-    printf("*** End of Concatenating Strings Demo ***\n\n");
+        // while (words != "q")
+    } while (strcmp(words, "q") != 0);
+    printf("*** End of Tokenizing Words Demo ***\n\n");
 }
