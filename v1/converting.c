@@ -19,7 +19,7 @@ void converting(void)
     int intNumber;
 
     do {
-        printf("Type an int numeric string (q - to quit ):\n");
+        printf("Type an int numeric string (q - to quit):\n");
 
         // Read string from stdin, stops when BUFFER_SIZE - 1 characters are read or \n is reached
         // and stores to intString
