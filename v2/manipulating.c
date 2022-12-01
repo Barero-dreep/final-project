@@ -7,7 +7,7 @@
 void manipulating(void)
 {
     /* Version 2 */
-    printf("*** Start of Comparing strings Deno ***\n");
+    printf("*** Start of Comparing strings Demo ***\n");
     char compare1[BUFFER_SIZE];
     char compare2[BUFFER_SIZE];
     int result;
@@ -23,7 +23,7 @@ void manipulating(void)
             if (result < 0)
                 printf("\'%s\' string is less than \'%s\'\n", compare1, compare2);
             else if (result == 0)
-                printf("\'%s\' string is equal to \'%s\'In", compare1, compare2);
+                printf("\'%s\' string is equal to \'%s\'\n", compare1, compare2);
             else
                 printf("\'%s\' string is greater than \'%s\'\n", compare1, compare2);
         }
