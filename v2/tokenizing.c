@@ -7,12 +7,12 @@
 void tokenizing(void)
 {
     /* Version 2 */
-    printf("*** start of Tokenizing Phrases Demo ***\n");
+    printf("*** Start of Tokenizing Phrases Demo ***\n");
     char phrases[BUFFER_SIZE];
     char* nextPhrase = NULL;
     int phrasesCounter;
     do {
-        printf("Type a few phrases separated by comma (q - to quit) : In");
+        printf("Type a few phrases separated by comma (q - to quit):\n");
         fgets(phrases, BUFFER_SIZE, stdin);
         phrases[strlen(phrases) - 1] = '\0';
         if (strcmp(phrases, "g") != 0) {
