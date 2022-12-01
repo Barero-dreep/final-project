@@ -20,8 +20,7 @@ void manipulating(void)
     do {
         printf("Type the 1st string (q - to quit): \n");
 
-        // Read string from stdin, stops when BUFFER_SIZE - 1 characters are read or \n is reached
-        // and stores to string1
+        // Read string from stdin, stops when BUFFER_SIZE - 1 characters are read or \n is reached and stores to string1
         fgets(string1, BUFFER_SIZE, stdin);
 
         // Setting the last character in cstring to null delimiter byte
@@ -31,8 +30,7 @@ void manipulating(void)
         if (strcmp(string1, "q") != 0) {
             printf("Type the 2nd string:\n");
 
-            // Read string from stdin, stops when BUFFER_SIZE - 1 characters are read or \n is
-            // reached and stores to string2
+            // Read string from stdin, stops when BUFFER_SIZE - 1 characters are read or \n is reached and stores to string2
             fgets(string2, BUFFER_SIZE, stdin);
 
             // Setting the last character in cstring to null delimiter byte

@@ -26,8 +26,7 @@ void fundamentals()
     do {
         printf("Type not empty string (q - to quit):\n");
 
-        // Read string from stdin, stops when BUFFER_SIZE - 1 characters are read or \n is reached
-        // and stores to buffer1
+        // Read string from stdin, stops when BUFFER_SIZE - 1 characters are read or \n is reached and stores to buffer1
         fgets(buffer1, BUFFER_SIZE, stdin);
 
         // Setting the last character in cstring to null delimiter byte
@@ -37,8 +36,7 @@ void fundamentals()
         if (strcmp(buffer1, "q") != 0) {
             printf("Type the character position within the string:\n");
 
-            // Read string from stdin, stops when BUFFER_SIZE - 1 characters are read or \n is
-            // reached and stores to numInput
+            // Read string from stdin, stops when BUFFER_SIZE - 1 characters are read or \n is reached and stores to numInput
             fgets(numInput, NUM_INPUT_SIZE, stdin);
 
             // Setting the last character in cstring to null delimiter byte

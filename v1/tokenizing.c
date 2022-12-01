@@ -23,8 +23,7 @@ void tokenizing(void)
     do {
         printf("Type a few words separated by space (q - to quit): \n");
 
-        // Read string from stdin, stops when BUFFER_SIZE - 1 characters are read or \n is reached
-        // and stores to words
+        // Read string from stdin, stops when BUFFER_SIZE - 1 characters are read or \n is reached and stores to words
         fgets(words, BUFFER_SIZE, stdin);
 
         // Setting the last character in cstring to null delimiter byte
