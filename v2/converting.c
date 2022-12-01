@@ -7,7 +7,7 @@
 void converting(void)
 {
     /* Version 2 */
-    printf("*** Start of Converting Strings to int Demo ***\n");
+    printf("*** Start of Converting Strings to double Demo ***\n");
     char doubleString[BUFFER_SIZE];
     double doubleNumber;
 
@@ -21,5 +21,5 @@ void converting(void)
             printf("Converted number is %f\n", doubleNumber);
         }
     } while (strcmp(doubleString, "q") != 0);
-    printf("*** End of Converting Strings to int Demo ***\n\n");
+    printf("*** End of Converting Strings to double Demo ***\n\n");
 }

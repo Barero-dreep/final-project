@@ -7,7 +7,7 @@
 void converting(void)
 {
     /* Version 3 */
-    printf("*** Start of Converting Strings to int Demo ***\n");
+    printf("*** Start of Converting Strings to long Demo ***\n");
     char longString[BUFFER_SIZE];
     long longNumber;
 
@@ -21,5 +21,5 @@ void converting(void)
             printf("Converted number is %ld\n", longNumber);
         }
     } while (strcmp(longString, "q") != 0);
-    printf("*** End of Converting Strings to int Demo ***\n\n");
+    printf("*** End of Converting Strings to long Demo ***\n\n");
 }
