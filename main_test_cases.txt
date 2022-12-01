@@ -1,0 +1,254 @@
+1 - Fundamentals
+2 - Manipulation
+3 - Converting
+4 - Tokenizing
+0 - Exit
+Which module to run?
+1
+*** Start of Indexing Strings Demo ***
+Type not empty string (q - to quit):
+qwerty
+Type the character position within the string:
+0
+The character found at 0 position is 'q'
+Type not empty string (q - to quit):
+qwerty
+Type the character position within the string:
+5
+The character found at 5 position is 'y'
+Type not empty string (q - to quit):
+q
+*** End of Indexing Strings Demo ***
+
+1 - Fundamentals
+2 - Manipulation
+3 - Converting
+4 - Tokenizing
+0 - Exit
+Which module to run?
+2
+*** Start of Concatenating strings Demo ***
+Type the 1st string (q - to quit):
+
+Type the 2nd string:
+
+Concatenated string is ''
+Type the 1st string (q - to quit):
+qwe
+Type the 2nd string:
+rty
+Concatenated string is 'qwerty'
+Type the 1st string (q - to quit):
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+Type the 2nd string:
+a
+Concatenated string is 'aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa'
+Type the 1st string (q - to quit):
+q
+*** End of Concatenating Strings Demo ***
+
+1 - Fundamentals
+2 - Manipulation
+3 - Converting
+4 - Tokenizing
+0 - Exit
+Which module to run?
+4
+*** Start of Tokenizing Words Demo ***
+Type a few words separated by space (q - to quit):
+
+Type a few words separated by space (q - to quit):
+The quick brown fox jumps over the lazy dog
+Word #1 is 'The'
+Word #2 is 'quick'
+Word #3 is 'brown'
+Word #4 is 'fox'
+Word #5 is 'jumps'
+Word #6 is 'over'
+Word #7 is 'the'
+Word #8 is 'lazy'
+Word #9 is 'dog'
+Type a few words separated by space (q - to quit):
+a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a
+Word #1 is 'a'
+Word #2 is 'a'
+Word #3 is 'a'
+Word #4 is 'a'
+Word #5 is 'a'
+Word #6 is 'a'
+Word #7 is 'a'
+Word #8 is 'a'
+Word #9 is 'a'
+Word #10 is 'a'
+Word #11 is 'a'
+Word #12 is 'a'
+Word #13 is 'a'
+Word #14 is 'a'
+Word #15 is 'a'
+Word #16 is 'a'
+Word #17 is 'a'
+Word #18 is 'a'
+Word #19 is 'a'
+Word #20 is 'a'
+Word #21 is 'a'
+Word #22 is 'a'
+Word #23 is 'a'
+Word #24 is 'a'
+Word #25 is 'a'
+Word #26 is 'a'
+Word #27 is 'a'
+Word #28 is 'a'
+Word #29 is 'a'
+Word #30 is 'a'
+Word #31 is 'a'
+Word #32 is 'a'
+Word #33 is 'a'
+Word #34 is 'a'
+Word #35 is 'a'
+Word #36 is 'a'
+Word #37 is 'a'
+Word #38 is 'a'
+Word #39 is 'a'
+Word #40 is 'a'
+Word #41 is 'a'
+Word #42 is 'a'
+Word #43 is 'a'
+Word #44 is 'a'
+Word #45 is 'a'
+Word #46 is 'a'
+Word #47 is 'a'
+Word #48 is 'a'
+Word #49 is 'a'
+Word #50 is 'a'
+Word #51 is 'a'
+Word #52 is 'a'
+Word #53 is 'a'
+Word #54 is 'a'
+Word #55 is 'a'
+Word #56 is 'a'
+Word #57 is 'a'
+Word #58 is 'a'
+Word #59 is 'a'
+Word #60 is 'a'
+Word #61 is 'a'
+Word #62 is 'a'
+Word #63 is 'a'
+Word #64 is 'a'
+Word #65 is 'a'
+Word #66 is 'a'
+Word #67 is 'a'
+Word #68 is 'a'
+Word #69 is 'a'
+Word #70 is 'a'
+Word #71 is 'a'
+Word #72 is 'a'
+Word #73 is 'a'
+Word #74 is 'a'
+Word #75 is 'a'
+Word #76 is 'a'
+Word #77 is 'a'
+Word #78 is 'a'
+Word #79 is 'a'
+Word #80 is 'a'
+Word #81 is 'a'
+Word #82 is 'a'
+Word #83 is 'a'
+Word #84 is 'a'
+Word #85 is 'a'
+Word #86 is 'a'
+Word #87 is 'a'
+Word #88 is 'a'
+Word #89 is 'a'
+Word #90 is 'a'
+Word #91 is 'a'
+Word #92 is 'a'
+Word #93 is 'a'
+Word #94 is 'a'
+Word #95 is 'a'
+Word #96 is 'a'
+Word #97 is 'a'
+Word #98 is 'a'
+Word #99 is 'a'
+Word #100 is 'a'
+Word #101 is 'a'
+Word #102 is 'a'
+Word #103 is 'a'
+Word #104 is 'a'
+Word #105 is 'a'
+Word #106 is 'a'
+Word #107 is 'a'
+Word #108 is 'a'
+Word #109 is 'a'
+Word #110 is 'a'
+Word #111 is 'a'
+Word #112 is 'a'
+Word #113 is 'a'
+Word #114 is 'a'
+Word #115 is 'a'
+Word #116 is 'a'
+Word #117 is 'a'
+Word #118 is 'a'
+Word #119 is 'a'
+Word #120 is 'a'
+Word #121 is 'a'
+Word #122 is 'a'
+Word #123 is 'a'
+Word #124 is 'a'
+Word #125 is 'a'
+Word #126 is 'a'
+Word #127 is 'a'
+Word #128 is 'a'
+Word #129 is 'a'
+Word #130 is 'a'
+Word #131 is 'a'
+Word #132 is 'a'
+Word #133 is 'a'
+Word #134 is 'a'
+Word #135 is 'a'
+Word #136 is 'a'
+Word #137 is 'a'
+Word #138 is 'a'
+Word #139 is 'a'
+Word #140 is 'a'
+Word #141 is 'a'
+Word #142 is 'a'
+Word #143 is 'a'
+Word #144 is 'a'
+Word #145 is 'a'
+Word #146 is 'a'
+Word #147 is 'a'
+Word #148 is 'a'
+Word #149 is 'a'
+Type a few words separated by space (q - to quit):
+Type a few words separated by space (q - to quit):
+q
+*** End of Tokenizing Words Demo ***
+
+1 - Fundamentals
+2 - Manipulation
+3 - Converting
+4 - Tokenizing
+0 - Exit
+Which module to run?
+3
+*** Start of Converting Strings to int Demo ***
+Type an int numeric string (q - to quit):
+-2147483648
+Converted number is -2147483648
+Type an int numeric string (q - to quit):
+123
+Converted number is 123
+Type an int numeric string (q - to quit):
+2147483647
+Converted number is 2147483647
+Type an int numeric string (q - to quit):
+q
+*** End of Converting Strings to int Demo ***
+
+1 - Fundamentals
+2 - Manipulation
+3 - Converting
+4 - Tokenizing
+0 - Exit
+Which module to run?
+0
