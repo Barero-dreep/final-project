@@ -1,0 +1,46 @@
+1 - Fundamentals
+2 - Manipulation
+3 - Converting
+4 - Tokenizing
+0 - Exit
+Which module to run?
+3
+*** Start of Converting Strings to int Demo ***
+Type an int numeric string (q - to quit):
+-2147483648
+Converted number is -2147483648
+Type an int numeric string (q - to quit):
+2147483647
+Converted number is 2147483647
+Type an int numeric string (q - to quit):
+2147483650
+Converted number is -2147483646
+Type an int numeric string (q - to quit):
+
+Converted number is 0
+Type an int numeric string (q - to quit):
+qwerty
+Converted number is 0
+Type an int numeric string (q - to quit):
+qwe123
+Converted number is 0
+Type an int numeric string (q - to quit):
+123qwe
+Converted number is 123
+Type an int numeric string (q - to quit):
+123q321
+Converted number is 123
+Type an int numeric string (q - to quit):
+qwe
+Converted number is 0
+Type an int numeric string (q - to quit):
+q
+*** End of Converting Strings to int Demo ***
+
+1 - Fundamentals
+2 - Manipulation
+3 - Converting
+4 - Tokenizing
+0 - Exit
+Which module to run?
+0
