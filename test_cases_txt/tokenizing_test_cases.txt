@@ -1,5 +1,13 @@
+1 - Fundamentals
+2 - Manipulation
+3 - Converting
+4 - Tokenizing
+0 - Exit
+Which module to run?
+3
+*** Start of Tokenizing Words Demo ***
 Type a few words separated by space (q - to quit): 
- //here is newLine
+
 Type a few words separated by space (q - to quit): 
 Hi! It's me. How are you doing buddy? I hope that everything is good! I just got a visa to come to you! So we can meet while I will be in vacation on next week. By the way, did you know that Sara got married? Gross isn't it?) Ok, Hope you will reply me as sooon as possible brother! See you in home
 Word #1 is 'Hi!'
